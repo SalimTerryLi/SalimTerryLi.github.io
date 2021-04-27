@@ -1,4 +1,4 @@
-name: A TO A:GH_PAGES
+name: Yarn build
 on: [push]
 jobs:
   build-and-deploy:
@@ -8,10 +8,11 @@ jobs:
       uses: actions/checkout@master
 
     - name: Build and Deploy
-      uses: SalimTerryLi/SalimTerryLi.github.io@master
+      uses: jenkey2011/vuepress-deploy@master
       env:
         ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
         TARGET_REPO: SalimTerryLi/SalimTerryLi.github.io
         TARGET_BRANCH: gh_pages
-        BUILD_SCRIPT: yarn && yarn build
+        BUILD_SCRIPT: yarn && yarn docs:build
         BUILD_DIR: docs/.vuepress/dist/
+        CNAME: blog.cnstl.tech
