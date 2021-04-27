@@ -1,0 +1,16 @@
+{
+  "name": "myGitPages",
+  "version": "1.0.0",
+  "description": "Somewhere my notes filled into",
+  "main": "index.js",
+  "author": "SalimTerryLi",
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^1.8.2",
+    "vuepress-bar": "^0.3.6"
+  },
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  }
+}
