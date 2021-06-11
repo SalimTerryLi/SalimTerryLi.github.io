@@ -52,3 +52,6 @@ tcpdump -s 0 -U -n -w - -i wlan0 | nc 192.168.42.168 2345
 
 0x13中新开的wireshark界面里应该已经有数据了。
 
+# 0xf 参考
+
+[https://eos.arista.com/forward-tcpdump-to-wireshark/](https://eos.arista.com/forward-tcpdump-to-wireshark/)
