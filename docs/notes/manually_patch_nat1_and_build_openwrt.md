@@ -197,7 +197,7 @@ cat ./build_dir/target-*/linux-*/linux-*/.vermagic
 注：当前该补丁适用于4.14内核
 
 ```
-wget -P target/linux/generic/hack-4.14/ https://raw.githubusercontent.com/coolsnowwolf/lede/master/target/linux/generic/hack-4.14/952-net-conntrack-events-support-multiple-registrant.patch
+wget -P target/linux/generic/hack-4.14/ https://raw.githubusercontent.com/coolsnowwolf/lede/a4773cf258ead39a427576dae524f07d3334d582/target/linux/generic/hack-4.14/952-net-conntrack-events-support-multiple-registrant.patch
 ```
 
 ### 添加fullconenat包
