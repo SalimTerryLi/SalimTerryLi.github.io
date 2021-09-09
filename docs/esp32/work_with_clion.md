@@ -69,7 +69,7 @@ Then I'd create a desktop entry for it. It differs with different desktop enviro
 
 Finally I got those two icons on my desktop
 
-![](_res_work_with_clion/clion_and_with_idf.png)
+![desktop_icon](./_res_work_with_clion/clion_and_with_idf.png)
 
 The first one for normal projects and the second one for IDF.
 
@@ -81,7 +81,7 @@ Switch to IDF repo directory(`$IDF_PATH`) and you will find the `examples` lying
 
 From Clion menubar choose "Projects" => "Open", navigate to where hello-world project exists
 
-![](_res_work_with_clion/locate_helloworld.png)
+![locate_helloworld](./_res_work_with_clion/locate_helloworld.png)
 
 Press OK. Then Choose "Open as CMake project".
 
@@ -89,7 +89,7 @@ On newer Clion it will ask to trust the project. To make everything works then c
 
 Now Clion will open a wizard to configure cmake profile. Those settings can also be changed later. To keep the same behavior as idf.py, we can fill the "Build directory" with `build`. Click "OK". That's all.
 
-![](_res_work_with_clion/clion_helloworld.png)
+![clion_helloworld](./_res_work_with_clion/clion_helloworld.png)
 
 You can build from menubar "Build" => "Build Project" to see if everything works.
 
