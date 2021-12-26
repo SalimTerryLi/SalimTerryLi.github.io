@@ -1,4 +1,4 @@
-# 手动编译OpenWRT并打NAT补丁
+# 手动编译OpenWRT19.07并打NAT补丁
 
 ## 0x0 环境
 
@@ -198,6 +198,14 @@ cat ./build_dir/target-*/linux-*/linux-*/.vermagic
 
 ```
 wget -P target/linux/generic/hack-4.14/ https://raw.githubusercontent.com/coolsnowwolf/lede/master/target/linux/generic/hack-4.14/952-net-conntrack-events-support-multiple-registrant.patch
+```
+
+注：适用于OpenWRT21的5.4内核补丁位于 `https://github.com/coolsnowwolf/lede/raw/master/target/linux/generic/hack-5.4/952-net-conntrack-events-support-multiple-registrant.patch`
+
+使用命令：
+
+```
+wget -P target/linux/generic/hack-5.4/ https://github.com/coolsnowwolf/lede/raw/master/target/linux/generic/hack-5.4/952-net-conntrack-events-support-multiple-registrant.patch
 ```
 
 ### 添加fullconenat包
