@@ -6,7 +6,7 @@
   "author": "SalimTerryLi",
   "license": "MIT",
   "devDependencies": {
-    "vuepress": "^1.8.2",
+    "vuepress": "^1.9.5",
     "vuepress-bar": "^0.3.6"
   },
   "scripts": {
