@@ -12,5 +12,8 @@
   "scripts": {
     "docs:dev": "vuepress dev docs",
     "docs:build": "vuepress build docs"
+  },
+  "dependencies": {
+    "chokidar": "^3.5.2"
   }
 }
